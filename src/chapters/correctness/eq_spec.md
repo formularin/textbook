@@ -517,9 +517,9 @@ Case analysis:  t = h' :: t'
 =   { rewriting q as (h :: h' :: t', b) }
   deq (enq x (h :: h' :: t', b))
 =   { eval enq }
-  deq (h :: h' :: t, x :: b)
+  deq (h :: h' :: t', x :: b)
 =   { eval deq }
-  h' :: t, x :: b
+  h' :: t', x :: b
 
   enq x (deq q)
 =   { rewriting q as (h :: h' :: t', b) }

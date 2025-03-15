@@ -199,7 +199,7 @@ module_type -> module_type
 ```
 
 For example, `X -> Add` below is a functor type, and it works for the `AddX`
-module we defined earlier in this section:
+functor we defined earlier in this section:
 
 ```{code-cell} ocaml
 module type Add = sig val add : int -> int end

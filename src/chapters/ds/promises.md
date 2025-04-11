@@ -677,7 +677,7 @@ Let's consider that final case in more detail. We have one promise of type
   Z. There is no guarantee about the state of Z; it might well still be pending
   when returned by the callback.
 
-* When Z is finally fulfilled, the contents of Y are updated to be the same as
+* When Z is finally resolved, the contents of Y are updated to be the same as
   the contents of Z.
 
 The reason why `bind` is designed with this type is so that programmers can set

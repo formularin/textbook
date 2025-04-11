@@ -149,7 +149,7 @@ nothing. We say that the promise is *pending*. Eventually the promise can be
 *fulfilled*, which is like putting something inside the box. Instead of being
 fulfilled, the promise can instead be *rejected*, in which case the box is filled
 with an exception. In either case, fulfilled or rejected, we say that the promise
-is *resolved*. Regardless of whether the promise is resolved or rejected,
+is *resolved*. Regardless of whether the promise is fulfilled or rejected,
 once the box is filled, its contents may never change.
 
 For now, we will mostly forget about concurrency. Later we'll come back and

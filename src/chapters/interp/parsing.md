@@ -68,7 +68,7 @@ a BNF description of the language's syntax. The output of the parser generator
 is a program that recognizes the language of the grammar. As input, that program
 expects the output of the lexer. As output, the program produces a value of the
 AST type that represents the string that was accepted. The programs output by
-the parser generator and lexer generator are thus dependent upon on another and
+the parser generator and lexer generator are thus dependent upon one another and
 upon the AST type.
 
 ## Backus-Naur Form
